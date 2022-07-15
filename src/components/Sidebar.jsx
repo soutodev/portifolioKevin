@@ -4,6 +4,7 @@ import "../styles/components/sidebar.sass"
 
 import React from 'react'
 import SocialNetworks from './SocialNetworks';
+import InformationContainer from './InformationContainer';
 
 const Sidebar = () => {
   return (
@@ -11,7 +12,7 @@ const Sidebar = () => {
       <img src={Avatar} alt="Kevin Souto Foto" />
       <p className="title">Dev Frontend Junior</p>
       <SocialNetworks/>
-      <p>informações de contato</p>
+      <InformationContainer/>
       <a href="" className="btn">
         Donwload Curriculo
       </a>
